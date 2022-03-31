@@ -79,6 +79,18 @@
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }	
 
+/* Image Overlay */
+product-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  border-radius: calc(0.25rem - 1px);
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -610,6 +622,11 @@ progress {
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
+}
+
+.img-fluid2 {
+  max-width: 40%;
   height: auto;
 }
 
