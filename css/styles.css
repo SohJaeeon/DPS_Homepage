@@ -90,7 +90,6 @@ product-img-overlay {
   border-radius: calc(0.25rem - 1px);
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
